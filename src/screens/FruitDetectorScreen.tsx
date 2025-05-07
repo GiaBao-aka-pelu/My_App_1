@@ -82,7 +82,7 @@ const FruitDetector = () => {
 
       {result && (
         <View style={styles.resultBox}>
-          <Text style={styles.resultTitle}>📋 Kết quả nhận diện:</Text>
+          <Text style={styles.resultTitle}>Kết quả nhận diện:</Text>
           <Text style={styles.resultText}>{JSON.stringify(result, null, 2)}</Text>
         </View>
       )}

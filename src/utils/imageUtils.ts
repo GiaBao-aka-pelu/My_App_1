@@ -1,10 +1,10 @@
 /** Resize, xử lý ảnh */
-import {Image} from 'react-native-compressor'; // Hoặc dùng thư viện khác nếu cần
+import {Image} from 'react-native-compressor';
 import {Platform} from 'react-native';
 import RNFS from 'react-native-fs';
 
 /**
- * Resize ảnh về kích thước phù hợp với YOLOv8 (mặc định là 640x640)
+ * Resize ảnh về kích thước phù hợp với YOLOv8
  */
 export const resizeImage = async (uri: string, width = 640, height = 640): Promise<string> => {
   try {
